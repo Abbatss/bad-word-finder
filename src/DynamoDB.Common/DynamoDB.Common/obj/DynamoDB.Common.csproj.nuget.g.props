@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.9.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/dmitrii.maskevich@futurice.com/.nuget/packages/" />
+  </ItemGroup>
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <PkgStyleCop_Analyzers Condition=" '$(PkgStyleCop_Analyzers)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/stylecop.analyzers/1.1.118</PkgStyleCop_Analyzers>
+    <PkgRoslynator_CodeFixes Condition=" '$(PkgRoslynator_CodeFixes)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/roslynator.codefixes/2.0.0</PkgRoslynator_CodeFixes>
+    <PkgRoslynator_Analyzers Condition=" '$(PkgRoslynator_Analyzers)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/roslynator.analyzers/3.2.2</PkgRoslynator_Analyzers>
+    <PkgAWSSDK_Core Condition=" '$(PkgAWSSDK_Core)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/awssdk.core/3.7.2.8</PkgAWSSDK_Core>
+    <PkgAWSSDK_DynamoDBv2 Condition=" '$(PkgAWSSDK_DynamoDBv2)' == '' ">/Users/dmitrii.maskevich@futurice.com/.nuget/packages/awssdk.dynamodbv2/3.7.0.57</PkgAWSSDK_DynamoDBv2>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5/aDC0L8hSoQKh1FTJB+ZvcARp7DEKR7t+32KolBy49nWNRCPvhKrWJotOtq0Yx0F358Cd1Z54HYYdNPPxDumw==",
+  "success": true,
+  "projectFilePath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/Api.Common.csproj",
+  "expectedPackageFiles": [
+    "/Users/dmitrii.maskevich@futurice.com/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

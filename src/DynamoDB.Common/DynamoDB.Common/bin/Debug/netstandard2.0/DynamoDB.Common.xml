@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DynamoDB.Common</name>
+    </assembly>
+    <members>
+        <member name="T:DynamoDB.Common.DynamoDBTableInitializer">
+            <summary>
+            class to initialize aws dymano DB.
+            </summary>
+        </member>
+        <member name="M:DynamoDB.Common.DynamoDBTableInitializer.#ctor(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String,Microsoft.Extensions.Logging.ILogger{DynamoDB.Common.DynamoDBTableInitializer},System.Int32,DynamoDB.Common.IDynamoDBTableDefinition)">
+            <summary>
+            Constructor.
+            </summary>
+            <param name="client">Dynamo DB client.</param>
+            <param name="tableName">Dynamo DB table name to create. </param>
+            <param name="logger"> logger. </param>
+            <param name="retryCount"> how long and during which intervals try to check Dynamo DB.</param>
+            <param name="tableDefinition">definition how to create dynamo table and which indexes should be added.</param>
+        </member>
+        <member name="M:DynamoDB.Common.DynamoDBTableInitializer.#ctor(Amazon.DynamoDBv2.IAmazonDynamoDB,System.String,Microsoft.Extensions.Logging.ILogger{DynamoDB.Common.DynamoDBTableInitializer},DynamoDB.Common.IDynamoDBTableDefinition)">
+            <summary>
+            default constructor. will initialize default retry policy.
+            </summary>
+            <param name="client"></param>
+            <param name="tableName"></param>
+            <param name="logger"></param>
+            <param name="tableDefinition"></param>
+        </member>
+        <member name="M:DynamoDB.Common.DynamoDBTableInitializer.Init">
+            <summary>
+            method to initialize dynamoDB.
+            </summary>
+            <returns>void.</returns>
+        </member>
+        <member name="M:DynamoDB.Common.DynamoDBTableInitializer.IsTableExists">
+            <summary>
+            Check if Dynamo Table exists.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="M:DynamoDB.Common.DynamoDBTableInitializer.CreateTable">
+            <summary>
+            create new table in Dynamo DB.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+        <member name="T:DynamoDB.Common.IEntityDBInitializer">
+            <summary>
+            initialize DB.
+            </summary>
+        </member>
+        <member name="M:DynamoDB.Common.IEntityDBInitializer.Init">
+            <summary>
+            Initialize database and indexes.
+            </summary>
+            <returns>A <see cref="T:System.Threading.Tasks.Task"/> representing the asynchronous operation.</returns>
+        </member>
+    </members>
+</doc>

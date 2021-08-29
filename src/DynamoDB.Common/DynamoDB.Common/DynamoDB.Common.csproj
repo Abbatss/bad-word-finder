@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+       <DocumentationFile></DocumentationFile>
+  </PropertyGroup>
+   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <NoWarn>1701;1702;3021;1591</NoWarn>
+    <CodeAnalysisRuleSet>bwf.ruleset</CodeAnalysisRuleSet>
+   
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <NoWarn>1701;1702;3021;1591</NoWarn>
+    <CodeAnalysisRuleSet>bwf.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Commands\Template\**" />
+    <EmbeddedResource Remove="Commands\Template\**" />
+    <None Remove="Commands\Template\**" />
+  </ItemGroup>
+<ItemGroup>
+	<PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.0.57" />	
+	<PackageReference Include="Microsoft.Extensions.Logging" Version="5.0.0" />
+	<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+	<PackageReference Include="Polly" Version="7.2.2" />
+	<PackageReference Include="Roslynator.Analyzers" Version="3.2.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Roslynator.CodeFixes" Version="2.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="StyleCop.Analyzers" Version="1.1.118">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+</ItemGroup>
+<ItemGroup>
+  <ProjectReference Include="..\..\Api.Common\Api.Common.csproj" />
+</ItemGroup>
+</Project>

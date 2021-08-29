@@ -1,0 +1,14 @@
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/bin/Debug/netstandard2.0/DynamoDB.Common.deps.json
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/bin/Debug/netstandard2.0/DynamoDB.Common.dll
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/bin/Debug/netstandard2.0/DynamoDB.Common.pdb
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/bin/Debug/netstandard2.0/DynamoDB.Common.xml
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/bin/Debug/netstandard2.0/Api.Common.dll
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/bin/Debug/netstandard2.0/Api.Common.pdb
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.AssemblyInfoInputs.cache
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.AssemblyInfo.cs
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.csproj.CoreCompileInputs.cache
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.csproj.CopyComplete
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.dll
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.xml
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/Debug/netstandard2.0/DynamoDB.Common.pdb

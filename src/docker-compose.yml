@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  dynamodb_bwf_api:
+    image: "amazon/dynamodb-local:latest"
+    command: "-jar DynamoDBLocal.jar -port 8001"
+    ports:
+      - "8001:8001"    
+  bwf.api.host:
+    image: ${DOCKER_REGISTRY-}bwfapi
+    
+    build:
+      context: .
+      dockerfile: BWF.Api.Host/Dockerfile
+    environment:
+      - "AWS__DynamoDB__ServiceUrl=http://dynamodb_bwf_api:8001"
+    ports:
+      - "5800:80"  
+    depends_on:
+      - dynamodb_bwf_api

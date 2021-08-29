@@ -1,0 +1,357 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDB.Common.FunctionalTests.csproj": {}
+  },
+  "projects": {
+    "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/Api.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/Api.Common.csproj",
+        "projectName": "Api.Common",
+        "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/Api.Common.csproj",
+        "packagesPath": "/Users/dmitrii.maskevich@futurice.com/.nuget/packages/",
+        "outputPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrii.maskevich@futurice.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerHelperLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerHelperLib.csproj",
+        "projectName": "DockerHelperLib",
+        "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerHelperLib.csproj",
+        "packagesPath": "/Users/dmitrii.maskevich@futurice.com/.nuget/packages/",
+        "outputPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrii.maskevich@futurice.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Docker.DotNet": {
+              "target": "Package",
+              "version": "[3.125.2, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Roslynator.CodeFixes": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDB.Common.FunctionalTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDB.Common.FunctionalTests.csproj",
+        "projectName": "DynamoDB.Common.FunctionalTests",
+        "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDB.Common.FunctionalTests.csproj",
+        "packagesPath": "/Users/dmitrii.maskevich@futurice.com/.nuget/packages/",
+        "outputPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrii.maskevich@futurice.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerHelperLib.csproj": {
+                "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerHelperLib.csproj"
+              },
+              "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/DynamoDB.Common.csproj": {
+                "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/DynamoDB.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.HealthChecks": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Analyzers": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.4.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.15.1, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Roslynator.CodeFixes": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.7.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/DynamoDB.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/DynamoDB.Common.csproj",
+        "projectName": "DynamoDB.Common",
+        "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/DynamoDB.Common.csproj",
+        "packagesPath": "/Users/dmitrii.maskevich@futurice.com/.nuget/packages/",
+        "outputPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/dmitrii.maskevich@futurice.com/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/Api.Common.csproj": {
+                "projectPath": "/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/Api.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "AWSSDK.DynamoDBv2": {
+              "target": "Package",
+              "version": "[3.7.0.57, )"
+            },
+            "Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.2, )"
+            },
+            "Roslynator.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.2, )"
+            },
+            "Roslynator.CodeFixes": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "StyleCop.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.1.118, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.400/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

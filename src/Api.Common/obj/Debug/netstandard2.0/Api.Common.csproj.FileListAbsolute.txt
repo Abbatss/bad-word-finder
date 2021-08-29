@@ -1,0 +1,10 @@
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/bin/Debug/netstandard2.0/Api.Common.deps.json
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/bin/Debug/netstandard2.0/Api.Common.dll
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/bin/Debug/netstandard2.0/Api.Common.pdb
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.csproj.AssemblyReference.cache
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.AssemblyInfoInputs.cache
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.AssemblyInfo.cs
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.csproj.CoreCompileInputs.cache
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.dll
+/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/Api.Common/obj/Debug/netstandard2.0/Api.Common.pdb

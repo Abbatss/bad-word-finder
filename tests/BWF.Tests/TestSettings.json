@@ -1,0 +1,9 @@
+{
+  "EnvironmentSettings": {
+    "BuildDockerImagesInTests": "Off"
+  },
+
+  "BWF_API": {
+    "BaseURL": "http://localhost"
+  }
+}

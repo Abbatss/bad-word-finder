@@ -1,0 +1,109 @@
+﻿<Properties StartupConfiguration="{24746E49-77F5-4298-A986-38FED5DBD280}|Default">
+  <MonoDevelop.Ide.ItemProperties.BWF.Api.Services.UnitTests FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="BWF.Api.Host.Lambda/LambdaEntryPoint.cs">
+    <Files>
+      <File FileName="DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" Line="10" Column="32" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" Line="13" Column="26" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common.UnitTests/BuilderPaginationTokenTests.cs" Line="8" Column="33" />
+      <File FileName="BWF.Api.Host/Startup.cs" Line="20" Column="14" />
+      <File FileName="BWF.Api.Host/Services/Store/IBadWordsRepository.cs" Line="3" Column="30" />
+      <File FileName="BWF.Api.Host/Models/IModel.cs" Line="1" Column="1" />
+      <File FileName="BWF.Api.Host/Services/DynamoDB/WordRecord.cs" Line="13" Column="22" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/DynamoDBRecord.cs" Line="32" Column="2" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/TableWithSortDataDefinition.cs" Line="23" Column="60" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/IEntityDBInitializer.cs" Line="1" Column="1" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/DynamoTableIndex.cs" Line="1" Column="1" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/DynamoTableConstants.cs" Line="18" Column="16" />
+      <File FileName="BWF.Api.Host/Services/DynamoDB/WordsRepository.cs" Line="19" Column="14" />
+      <File FileName="BWF.Api.Host/appsettings.json" Line="17" Column="22" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common.FunctionalTests/appsettings.json" Line="19" Column="1" />
+      <File FileName="DockerHelperLib/DockerServer.cs" Line="18" Column="16" />
+      <File FileName="BWF.Api.Host/Controllers/BadWordsController.cs" Line="18" Column="36" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/DynamoDBTableInitializer.cs" Line="1" Column="1" />
+      <File FileName="BWF.Api.Host/Models/AddBadWordRequest.cs" Line="10" Column="6" />
+      <File FileName="BWF.Api.Host/Controllers/FileCheckerController.cs" Line="7" Column="14" />
+      <File FileName="BWF.Api.Host/Middleware/ErrorHandlerMiddleware.cs" Line="34" Column="75" />
+      <File FileName="BWF.Api.Host/Services/Checkengine.cs" Line="21" Column="28" />
+      <File FileName="BWF.Api.Host/Models/CheckResult.cs" Line="4" Column="18" />
+      <File FileName="BWF.Api.Host/Program.cs" Line="16" Column="1" />
+      <File FileName="BWF.Api.Host/Models/CheckResult.cs" Line="10" Column="46" />
+      <File FileName="BWF.Api.Host/Dockerfile" Line="1" Column="1" />
+      <File FileName="docker-compose.yml" Line="16" Column="64" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/Extensions/PaginationTokenExtension.cs" Line="11" Column="1" />
+      <File FileName="DynamoDB.Common/DynamoDB.Common/Extensions/CreateRequestExtensions.cs" Line="28" Column="13" />
+      <File FileName="docker-compose.override.yml" Line="1" Column="1" />
+      <File FileName="BWF.Api.Host.UnitTests/UnitTest1.cs" Line="44" Column="104" />
+      <File FileName="BWF.Api.Services/Models/BadWord.cs" Line="10" Column="1" />
+      <File FileName="BWF.Api.Services.UnitTests/UnitTest1.cs" Line="36" Column="47" />
+      <File FileName="BWF.Api.Host.Lambda/LambdaEntryPoint.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="bad-words-finder" expanded="True">
+            <Node name="Shared" expanded="True" />
+            <Node name="BWF.Api.Host" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Middleware" expanded="True" />
+              <Node name="Models" expanded="True" />
+            </Node>
+            <Node name="BWF.Api.Host.UnitTests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="BWF.Api.Services" expanded="True">
+              <Node name="Models" expanded="True" />
+              <Node name="Services" expanded="True">
+                <Node name="DynamoDB" expanded="True" />
+                <Node name="Store" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="BWF.Api.Services.UnitTests" expanded="True" />
+            <Node name="docker-compose" expanded="True">
+              <Node name="docker-compose.yml" expanded="True" />
+            </Node>
+            <Node name="DocumentGeneration.Api.Host.Lambda" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="LambdaEntryPoint.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="bad-words-finder" expanded="True" selected="True">
+            <Node name="Shared" expanded="True">
+              <Node name="DynamoDB.Common" expanded="True">
+                <Node name="tests" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.BWF.Api.Host PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.ItemProperties.docker-compose PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" line="33" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" line="34" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" line="36" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" line="31" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/TestsSetUp.cs" line="44" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" line="17" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" relfile="DynamoDB.Common/DynamoDB.Common.FunctionalTests/DynamoDBTableInitializerFunctionalTests.cs" line="22" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerServer.cs" relfile="DockerHelperLib/DockerServer.cs" line="40" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerServer.cs" relfile="DockerHelperLib/DockerServer.cs" line="61" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/DockerHelperLib/DockerServer.cs" relfile="DockerHelperLib/DockerServer.cs" line="66" column="1" />
+      <Breakpoint file="/Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src/BWF.Api.Host/Middleware/ErrorHandlerMiddleware.cs" relfile="BWF.Api.Host/Middleware/ErrorHandlerMiddleware.cs" line="38" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

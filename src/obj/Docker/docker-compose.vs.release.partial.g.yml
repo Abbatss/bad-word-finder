@@ -1,0 +1,20 @@
+version: '3.4'
+
+services:
+  bwf.api.host:
+    container_name: BWF.Api.Host
+    build:
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "BWF.Api.Host"
+    volumes:
+      - /Users/dmitrii.maskevich@futurice.com/vsdbg/vs2017u5:/remote_debugger:rw
+
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      #com.microsoft.visualstudio.debuggee.arguments: " $debuggee_arguments_probing_paths_bwf.api.host$ \"/app/BWF.Api.Host.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+      com.microsoft.visual-studio.project-name: "BWF.Api.Host"
+    tty: true

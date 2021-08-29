@@ -1,0 +1,10 @@
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\bin\Debug\netstandard2.0\DockerHelperLib.deps.json
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\bin\Debug\netstandard2.0\DockerHelperLib.dll
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\bin\Debug\netstandard2.0\DockerHelperLib.pdb
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\bin\Debug\netstandard2.0\DockerHelperLib.xml
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\obj\Debug\netstandard2.0\DockerHelperLib.AssemblyInfoInputs.cache
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\obj\Debug\netstandard2.0\DockerHelperLib.AssemblyInfo.cs
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\obj\Debug\netstandard2.0\DockerHelperLib.dll
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\obj\Debug\netstandard2.0\DockerHelperLib.xml
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\obj\Debug\netstandard2.0\DockerHelperLib.pdb
+C:\GDBP\dcs-template-management-service\dcs-template-management-service\src\Shared\DockerHelperLib\obj\Debug\netstandard2.0\DockerHelperLib.csprojAssemblyReference.cache

@@ -1,0 +1,28 @@
+services:
+  bwf.api.host:
+    build:
+      context: /Users/dmitrii.maskevich@futurice.com/Projects/bad-words-finder/src
+      dockerfile: BWF.Api.Host/Dockerfile
+    depends_on:
+      dynamodb_bwf_api:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: https://+:443;http://+:80
+      AWS__DynamoDB__ServiceUrl: http://dynamodb_bwf_api:8001
+    image: bwfapi
+    ports:
+    - published: 5800
+      target: 80
+    - target: 80
+    - target: 443
+    volumes:
+    - /Users/dmitrii.maskevich@futurice.com/.aspnet/https:/root/.aspnet/https:ro
+    - /Users/dmitrii.maskevich@futurice.com/.microsoft/usersecrets:/root/.microsoft/usersecrets:ro
+  dynamodb_bwf_api:
+    command: -jar DynamoDBLocal.jar -port 8001
+    image: amazon/dynamodb-local:latest
+    ports:
+    - published: 8001
+      target: 8001
+version: '3.4'
